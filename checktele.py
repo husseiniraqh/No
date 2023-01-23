@@ -203,7 +203,7 @@ async def _(event):
         await fifthon.send_file(event.chat_id, 'banned.txt')
 
 
-@fifthon.on(events.NewMessage(outgoing=True, pattern=r"\.الانواع"))
+@fifthon.on(events.NewMessage(outgoing=True, pattern=r"\.قائمة الصيد"))
 async def _(event):
     if ispay2[0] == "yes":
         await event.edit(tele_checker2)
@@ -251,13 +251,13 @@ async def _(event):
                     await event.client.send_message(event.chat_id, f'''
 ●━━━━━━━━●
 ┏━━━━━┓
-- By ↣ @iziii 
+- By ↣ @ylggl
 ┗━━━━━┛
 ┏━━━━━┓
 ↣ (@{username})
 ┗━━━━━┛
 ┏━━━━━┓
-- By ↣@ZBaak 
+- By ↣@ylggl
 ┗━━━━━┛
 ●━━━━━━━━●
 
@@ -319,13 +319,13 @@ async def _(event):
                         await event.client.send_message(event.chat_id, f'''
 ●━━━━━━━━●
 ┏━━━━━┓
-- By ↣ @iziii 
+- By ↣ @ylggl
 ┗━━━━━┛
 ┏━━━━━┓
 ↣ (@{username})
 ┗━━━━━┛
 ┏━━━━━┓
-- By ↣@ZBaak 
+- By ↣@ylggl
 ┗━━━━━┛
 ●━━━━━━━━●
 
@@ -361,13 +361,13 @@ async def _(event):
                 await event.client.send_message(event.chat_id, f'''
 ●━━━━━━━━●
 ┏━━━━━┓
-- By ↣ @iziii 
+- By ↣ @ylggl 
 ┗━━━━━┛
 ┏━━━━━┓
 ↣ (@{username})
 ┗━━━━━┛
 ┏━━━━━┓
-- By ↣@ZBaak 
+- By ↣@ylggl
 ┗━━━━━┛
 ●━━━━━━━━●
 
